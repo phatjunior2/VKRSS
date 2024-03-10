@@ -68,7 +68,7 @@ def download_audio(video_url):
         'outtmpl': 'downloads/%(id)s.%(ext)s',
         'writethumbnail': True,
         'quiet': True,
-        'ffmpeg_location': '/usr/local/bin/ffmpeg',
+        'ffmpeg_location': '/usr/bin/ffmpeg',
     }
 
 
